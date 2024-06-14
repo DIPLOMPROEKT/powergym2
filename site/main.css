@@ -1,0 +1,569 @@
+
+  
+  header {
+
+    color: #fff;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    border-bottom: 2px solid #1b1b1b;
+
+
+  }
+    nav ul {
+        margin-bottom: 12px;
+        list-style: none;
+        display: flex;
+ 
+ 
+    }
+    
+    nav ul li {
+       margin-bottom: 5px;
+        margin-right: 19.5px;
+        margin-left: 30px;
+       
+        
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        
+    }
+    
+    nav ul li a:hover {
+        color: #ddd;
+    }
+    
+    .logo img {
+        margin-bottom: 5px;
+      margin-left: 13px;
+      margin-right: -3px;
+        width: 225PX;
+        height: 30px;
+    }
+    nav {
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 17px;
+    }
+    
+.logo{
+    margin-left: 30px;
+margin-right:300px;
+}
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+
+
+
+
+
+
+        body {
+            font-family: 'Roboto', sans-serif; 
+           
+            background-color: #070707;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        h1, h2, h3 {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        a {
+            color: #007bff; 
+            text-decoration: none;
+
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+
+        
+     
+
+        
+
+        
+
+        
+       
+        #hero {
+        height: 750px;
+        width: 1900px;
+        
+            
+            background-image: url("img/77.png"); 
+          
+            background-size: cover;
+            background-position: center;
+            min-height: 400px; 
+            display: flex;
+            align-items: center;
+            text-align: left; 
+           
+        }
+        
+        #hero .container {
+            margin-left: 300px;
+            width: 800px;
+            text-size-adjust: 50px;
+            text-align: left; 
+            font-size: 22px;
+        }
+        
+        #hero h1 {
+            font-size: 3em; 
+            margin-bottom: 20px;
+        }
+        
+      
+        #features {
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .features-grid {
+            display: inline-flex;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            grid-gap: 30px;
+        }
+        
+        .features-grid2 {
+            display: inline-flex;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            grid-gap: 30px;
+            border-bottom: 2px solid #1b1b1b;
+        }
+
+        .feature1 {
+            text-align: center;
+            max-width: 327;
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+           
+            max-width: 327;
+        
+        }
+        
+        .feature1 img {
+            width: 330px; 
+            height: 400px; 
+            margin-top: 100px;
+            margin-bottom: 10px;
+        }
+        .feature1::after {
+       
+            content: "В процессе таких занятий вы получаете профессиональное руководство и мотивацию, а также контроль правильности выполнения упражнений, что помогает избежать травм.";
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            
+            background-color: #0a0a0a; 
+            transition: opacity 0.3s;
+        }
+        
+        .feature1:hover::after {
+            background-color: #070707; 
+            opacity: 0; 
+            transition: opacity 1s ease; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 20px;
+            opacity: 0.9; 
+        }
+        
+        .feature2 {
+         
+            margin-right: 25px;
+            margin-left: 25px;
+            text-align: center;
+            max-width: 327;
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+      
+        }
+        
+        .feature2 img {
+            margin-right: 25px;
+            margin-left: 25px;
+            width: 327px; 
+            height: 439px;  
+            margin-top: 100px;
+            margin-bottom: 10px;
+        }
+        .feature2::after {
+            content: "Наши тренажёры оснащены последними технологиями, позволяя пользователям отслеживать свои результаты в режиме реального времени, адаптировать нагрузку и оптимизировать упражнения под индивидуальные нужды.";
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #070707; 
+            transition: opacity 0.3s;
+        }
+        
+        .feature2:hover::after {
+            background-color: #070707; 
+            opacity: 0; 
+            transition: opacity 1s ease; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 20px;
+            opacity: 0.9; 
+        }
+        
+
+        .feature3 {
+            text-align: center;
+            max-width: 327;
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+      
+
+            
+        }
+        
+        .feature3 img {
+           
+            width: 330px; 
+            height: 400px; 
+            margin-top: 100px;
+            margin-bottom: 10px;
+        }
+        .feature3::after {
+            content: "Бассейн идеален для аквааэробики, плавания и расслабляющих водных процедур, способствующих укреплению здоровья и восстановлению после тренировок. Зона отдыха оборудована комфортабельной мебелью и предоставляет прекрасное место для релаксации и восстановления сил.";
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #070707; 
+            transition: opacity 0.3s;
+        }
+        
+        .feature3:hover::after {
+            background-color: #070707; 
+            opacity: 0; 
+            transition: opacity 1s ease; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 20px;
+            opacity: 0.9; 
+        }
+        
+
+        .feature4 {
+         
+          
+            max-width: 327;
+            text-align: center;
+   
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            
+        }
+        
+        .feature4 img {
+           
+            width: 327px; 
+            height: 439px; 
+            margin-top: 100px;
+            margin-bottom: 10px;
+        }
+        .feature4::after {
+            content: "Наши групповые программы в фитнес-клубе предлагают широкий спектр занятий для любого уровня подготовки. От йоги и пилатеса до интенсивных кардио-сессий и силовых тренировок, каждое занятие направлено на укрепление здоровья, улучшение физической формы и повышение общей мотивации. Групповые занятия проводятся в дружелюбной и поддерживающей атмосфере, что делает тренировки не только эффективными, но и веселыми.";
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #070707; 
+            transition: opacity 0.3s;
+        }
+        
+        .feature4:hover::after {
+            background-color: #070707; 
+            opacity: 0; 
+            transition: opacity 1s ease; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 20px;
+            opacity: 0.9; 
+        }
+        
+        .feature5 {
+          
+            margin-right: 25px;
+            margin-left: 25px;
+            text-align: center;
+            max-width: 327;
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+             
+        }
+        
+        .feature5 img {
+            margin-right: 25px;
+            margin-left: 25px;
+            width: 330px; 
+            height: 400px;  
+            margin-top: 100px;
+            margin-bottom: 10px;
+        }
+        .feature5::after {
+            content: "Программы включают разнообразные упражнения с использованием свободных весов, тренажёров и функционального оборудования, подходящие как для новичков, так и для опытных спортсменов. Тренировки проводятся в мотивирующей атмосфере, что помогает достигать личных рекордов и постоянно прогрессировать в тренировках.";
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #070707; 
+            transition: opacity 0.3s;
+        }
+        
+        .feature5:hover::after {
+            background-color: #070707; 
+            opacity: 0; 
+            transition: opacity 1s ease; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 20px;
+            opacity: 0.9; 
+        }
+        
+        .feature6 {
+            text-align: center;
+            max-width: 327;
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .feature6 img {
+           
+            width: 327px; 
+            height: 439px; 
+            margin-top: 100px;
+            margin-bottom: 10px;
+            transition: filter 0.5s;
+            transition: opacity 0.3s ease;
+        }
+        
+        .feature6::after {
+            content: "Занятия включают упражнения, имитирующие повседневные движения, что помогает укрепить мышцы, необходимые для выполнения обычных задач. Этот вид тренировки подходит для всех уровней подготовки и способствует снижению риска травм, улучшению постурального контроля и повышению общей физической активности.";
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #070707; 
+            transition: opacity 0.3s;
+        }
+        
+        .feature6:hover::after {
+            background-color: #070707; 
+            opacity: 0; 
+            transition: opacity 1s ease; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 20px;
+            opacity: 0.9; 
+        }
+        
+
+        
+
+
+       
+        #guest-visit {
+            display: flex;
+            padding: 50px 0;
+            background-color: #070707; 
+            border-bottom: 2px solid #1b1b1b;
+        }
+        
+        .form-container {
+           
+         
+            margin-top: 150px;
+            margin-left: 400px;
+            padding: 30px;
+            background-color: #070707;
+            border-radius: 5px;
+           
+        }
+        
+        .form-group {
+
+            margin-bottom: 20px;
+        }
+        .form-group img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .form-group.success {
+            display: none;
+        }
+        
+        .form-group.success img {
+            display: block;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="tel"] {
+            width: 300px;
+            padding: 20px;
+            border: none;
+         
+         background-color: #070707;
+        }
+        
+      
+        #contacts {
+            padding: 50px 0;
+            text-align: center; 
+        }
+        
+        footer {
+            background-color: #000000;
+            color: white;
+            padding: 20px 0;
+            text-align: center; 
+            border-top: 2px solid #1b1b1b;
+        }
+        .slova{
+            width: 500px;
+            margin-left: 100px;
+        }
+        .slova img{
+            
+          margin-top: 50px;
+        }
+        .btn { 
+            padding: 10px 20px;
+            background-color: #007BFF; 
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #0056b3; 
+            transform: translateY(-2px); 
+        }
+        
+        .btn:active {
+            background-color: #004080; 
+            transform: translateY(1px); 
+        }
+        #register-button {
+            margin-left: 100px;
+       
+        }
+        
+     
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgba(0,0,0,0.4); 
+          }
+          
+          .modal-content {
+            align-items: center;
+            color: #ffffff;
+            background-color: #070707;
+            margin: 15% auto; 
+            padding: 20px;
+            border: 1px solid #1b1b1b;
+            border-radius: 10px;
+            width: 700px;
+            height: 400px;
+            
+          }
+          #modalTitle{
+            text-align: center;
+            font-size: 35px;
+          }
+          #modalDescription{
+            font-size: 20px;
+          }
+          
+          .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+          }
+          
+          .close:hover,
+          .close:focus {
+            color: #979797;
+           
+            cursor: pointer;
+          }
